@@ -1,0 +1,14 @@
+# Works with podman-compose and docker compose.
+# UID and GID make the container write to ./data as you (rootless Podman, SELinux: :Z).
+services:
+  app:
+    build: .
+    image: nexmio-family
+    container_name: nexmio-family
+    ports:
+      - "8080:8080"
+    user: "${UID:-1000}:${GID:-1000}"
+    userns_mode: "keep-id"
+    volumes:
+      - ./data:/data:Z
+    restart: unless-stopped

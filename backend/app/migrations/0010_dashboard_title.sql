@@ -1,0 +1,2 @@
+ALTER TABLE dashboards ADD COLUMN title TEXT;
+ALTER TABLE dashboards ADD COLUMN show_title INTEGER NOT NULL DEFAULT 1;

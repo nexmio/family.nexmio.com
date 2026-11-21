@@ -1,0 +1,7 @@
+CREATE TABLE todos (
+  id         INTEGER PRIMARY KEY AUTOINCREMENT,
+  title      TEXT NOT NULL,
+  done       INTEGER NOT NULL DEFAULT 0,
+  member_id  INTEGER REFERENCES members(id) ON DELETE SET NULL,
+  created_at TEXT NOT NULL
+);

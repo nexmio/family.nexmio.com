@@ -1,0 +1,1 @@
+ALTER TABLE dashboards ADD COLUMN show_clock INTEGER NOT NULL DEFAULT 1;

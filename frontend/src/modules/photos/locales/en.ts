@@ -1,0 +1,16 @@
+export default {
+  title: "Photos",
+  intro: "The photos play as a slideshow on the screens. You choose how the series looks under Screens.",
+  upload: "Upload photos",
+  uploading: "Uploading {{n}} of {{total}} …",
+  notImage: "The file is not an image.",
+  albums: "Albums",
+  all: "All",
+  noAlbum: "No album",
+  newAlbum: "New album",
+  albumName: "Album name",
+  albumTaken: "An album with that name already exists.",
+  deleteAlbum: "Delete the album (photos stay)",
+  confirmAlbum: "Delete the album '{{name}}'? The photos stay without an album.",
+  empty: "No photos yet. Press 'Upload photos'.",
+} as const;

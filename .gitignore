@@ -1,0 +1,37 @@
+data/
+node_modules/
+.venv/
+project.md
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+frontend/dist/
+*.egg-info/
+
+# Brand kit: a generated copy, fetched separately (not part of this repo)
+brand/
+
+# Local tools and editor settings: not part of the project
+.claude/
+.idea
+.vscode
+.mcp.json
+.ripgreprc
+.gitmodules
+.gitconfig
+.bashrc
+.bash_profile
+.profile
+.zshrc
+.zprofile
+
+# Test output, logs, secrets and system junk
+frontend/test-results/
+frontend/playwright-report/
+*.log
+*.tmp
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.swp

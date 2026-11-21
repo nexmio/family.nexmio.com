@@ -1,0 +1,16 @@
+export default {
+  title: "Fotos",
+  intro: "Billederne vises som billedserie på skærmene. Du vælger selv, hvordan serien ser ud, under Dashboards.",
+  upload: "Upload billeder",
+  uploading: "Uploader {{n}} af {{total}} …",
+  notImage: "Filen er ikke et billede.",
+  albums: "Album",
+  all: "Alle",
+  noAlbum: "Uden album",
+  newAlbum: "Nyt album",
+  albumName: "Navn på album",
+  albumTaken: "Der findes allerede et album med det navn.",
+  deleteAlbum: "Slet albummet (billederne bliver)",
+  confirmAlbum: "Slet albummet '{{name}}'? Billederne bliver liggende uden album.",
+  empty: "Ingen billeder endnu. Tryk på 'Upload billeder'.",
+} as const;
