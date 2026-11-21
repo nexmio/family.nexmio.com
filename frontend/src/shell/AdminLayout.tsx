@@ -1,7 +1,7 @@
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { useTranslation } from "react-i18next";
 import { NavLink, Outlet } from "react-router-dom";
-import mark from "../../../brand/preview/img/green/mark.png";
+import mark from "../assets/mark.png";
 import { CodeDialog } from "../shared/access-code/CodeDialog";
 import { LoginForm } from "../shared/access-code/LoginForm";
 import { ToastHost } from "../shared/ui/toast";

@@ -1,9 +1,8 @@
-# Stage 1: build the frontend (needs brand/ because the logo and favicon come from it)
+# Stage 1: build the frontend
 FROM docker.io/library/node:22-alpine AS frontend
 WORKDIR /src
 COPY frontend/package.json frontend/package-lock.json frontend/
 RUN cd frontend && npm ci
-COPY brand brand
 COPY frontend frontend
 RUN cd frontend && npm run build
 
